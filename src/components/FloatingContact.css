@@ -1,0 +1,37 @@
+.floating-contact {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+.whatsapp-float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--gold);
+  color: var(--ink);
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(184, 147, 90, 0.4);
+  transition: all 0.3s ease;
+  animation: bounce 2s infinite;
+}
+
+.whatsapp-float svg {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: var(--gold-light);
+  box-shadow: 0 6px 25px rgba(184, 147, 90, 0.6);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-10px);}
+  60% {transform: translateY(-5px);}
+}

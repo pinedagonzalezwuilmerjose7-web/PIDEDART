@@ -1,0 +1,50 @@
+.testimonial {
+  background: var(--cream-dark);
+  padding: 8rem 5rem;
+  text-align: center;
+}
+
+.quote-mark {
+  font-family: var(--font-serif);
+  font-size: 8rem;
+  color: var(--gold);
+  opacity: 0.3;
+  line-height: 0.5;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.quote-text {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--ink);
+  max-width: 750px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.5;
+}
+
+.quote-author {
+  font-size: 0.68rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.quote-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--ink-mid);
+  opacity: 0.25;
+}
+
+.dot.active { background: var(--gold); opacity: 1; }

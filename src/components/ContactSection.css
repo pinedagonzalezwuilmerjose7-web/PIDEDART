@@ -1,0 +1,95 @@
+.contact {
+  background: var(--white);
+  padding: 8rem 5rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 6rem;
+  margin-top: 4rem;
+}
+
+.contact-intro {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  max-width: 450px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.form-group label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+}
+
+.form-group input, 
+.form-group textarea {
+  background: var(--cream);
+  border: 0.5px solid rgba(26, 22, 16, 0.1);
+  padding: 1rem 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  border-color: var(--gold);
+}
+
+.contact-map-side {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.map-wrapper {
+  height: 400px;
+  background: var(--cream-dark);
+  border: 0.5px solid rgba(184, 147, 90, 0.3);
+  overflow: hidden;
+}
+
+.contact-info-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.info-box h4 {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.info-box p {
+  font-size: 0.8rem;
+  color: var(--ink-mid);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}

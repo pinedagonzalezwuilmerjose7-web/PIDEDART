@@ -1,0 +1,60 @@
+.categories {
+  padding: 8rem 5rem;
+  background: var(--cream);
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.cat-item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  cursor: crosshair;
+}
+
+.cat-item:hover .cat-bg { transform: scale(1.06); }
+.cat-item:hover .cat-label { bottom: 2.5rem; }
+
+.cat-bg {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.cat-bg svg { width: 100%; height: 100%; }
+
+.cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26,22,16,0.8) 0%, transparent 50%);
+}
+
+.cat-label {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  transition: bottom 0.4s ease;
+}
+
+.cat-name {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--white);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.cat-count {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
