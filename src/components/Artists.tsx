@@ -14,13 +14,7 @@ export default function Artists() {
       <div className="artists-grid">
         <div className="artist-card">
           <div className="artist-avatar">
-            <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
-              <rect width="90" height="90" fill="#E8D0B8"/>
-              <ellipse cx="45" cy="40" rx="22" ry="26" fill="#C8906A"/>
-              <ellipse cx="45" cy="28" rx="23" ry="14" fill="#3A2010"/>
-              <path d="M20,90 Q30,60 45,62 Q60,60 70,90" fill="#2A4080"/>
-              <ellipse cx="45" cy="57" rx="12" ry="8" fill="#C8906A"/>
-            </svg>
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" alt="Carlos M. Pineda" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
           </div>
           <div className="artist-name">Carlos M. Pineda</div>
           <div className="artist-specialty">Óleo · Paisajismo</div>
@@ -30,13 +24,7 @@ export default function Artists() {
 
         <div className="artist-card">
           <div className="artist-avatar">
-            <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
-              <rect width="90" height="90" fill="#D8E8D0"/>
-              <ellipse cx="45" cy="40" rx="22" ry="26" fill="#B87865"/>
-              <ellipse cx="45" cy="25" rx="24" ry="16" fill="#1A1010"/>
-              <path d="M22,90 Q32,58 45,60 Q58,58 68,90" fill="#8040A0"/>
-              <ellipse cx="45" cy="57" rx="12" ry="8" fill="#B87865"/>
-            </svg>
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200" alt="Lucía Vera Castro" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
           </div>
           <div className="artist-name">Lucía Vera Castro</div>
           <div className="artist-specialty">Acuarela · Botanía</div>
@@ -46,13 +34,7 @@ export default function Artists() {
 
         <div className="artist-card">
           <div className="artist-avatar">
-            <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
-              <rect width="90" height="90" fill="#D8D0E8"/>
-              <ellipse cx="45" cy="40" rx="22" ry="26" fill="#A07858"/>
-              <ellipse cx="45" cy="27" rx="22" ry="15" fill="#2A2010"/>
-              <path d="M22,90 Q32,60 45,62 Q58,60 68,90" fill="#204880"/>
-              <ellipse cx="45" cy="57" rx="12" ry="8" fill="#A07858"/>
-            </svg>
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" alt="Andrés Ríos" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
           </div>
           <div className="artist-name">Andrés Ríos</div>
           <div className="artist-specialty">Acrílico · Urbanismo</div>
