@@ -80,3 +80,16 @@ footer {
   letter-spacing: 0.08em;
   color: rgba(245,240,232,0.25);
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}

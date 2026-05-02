@@ -37,7 +37,7 @@ export default function FeaturedGallery() {
       if (error) {
         console.error('Error cargando obras:', error);
       } else {
-        setArtworks(data || []);
+        setArtworks((data as any) || []);
       }
       setLoading(false);
     }

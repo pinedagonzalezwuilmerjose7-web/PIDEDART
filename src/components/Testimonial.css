@@ -48,3 +48,14 @@
 }
 
 .dot.active { background: var(--gold); opacity: 1; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .quote-mark {
+    font-size: 5rem;
+  }
+}

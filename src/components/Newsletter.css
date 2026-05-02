@@ -63,3 +63,10 @@
 }
 
 .newsletter-form button:hover { background: var(--gold-light); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+}

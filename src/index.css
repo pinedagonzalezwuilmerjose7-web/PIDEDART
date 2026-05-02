@@ -96,3 +96,42 @@ section { padding: 8rem 5rem; }
   opacity: 1;
   transform: translateY(0);
 }
+
+.marquee-bar {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 1rem 0;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+
+.marquee-inner {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-sep {
+  color: var(--gold);
+}
+
+/* ── RESPONSIVE DESIGN ── */
+@media (max-width: 768px) {
+  section { padding: 4rem 1.5rem; }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-label {
+    margin-bottom: 1rem;
+  }
+
+  .marquee-inner {
+    font-size: 0.65rem;
+  }
+}

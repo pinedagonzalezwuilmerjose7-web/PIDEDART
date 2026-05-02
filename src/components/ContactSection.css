@@ -93,3 +93,9 @@
     gap: 4rem;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-info-boxes {
+    grid-template-columns: 1fr;
+  }
+}

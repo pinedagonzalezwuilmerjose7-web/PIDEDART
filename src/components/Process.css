@@ -59,3 +59,11 @@
 .process-visual {
   position: relative;
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

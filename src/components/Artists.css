@@ -69,3 +69,16 @@
   text-transform: uppercase;
   color: var(--ink-mid);
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .artists-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .artists-grid {
+    grid-template-columns: 1fr;
+  }
+}
