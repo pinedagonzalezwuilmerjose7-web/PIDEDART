@@ -48,6 +48,13 @@ export default function ContactSection() {
               <h4>Horarios</h4>
               <p>Lun - Sáb: 10:00 AM - 7:00 PM</p>
             </div>
+            <div className="info-box" style={{ gridColumn: '1 / -1' }}>
+              <h4>Redes Sociales</h4>
+              <p style={{ display: 'flex', gap: '1rem', marginTop: '0.5rem' }}>
+                <a href="https://instagram.com/pinedart_oficial" target="_blank" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 500 }}>Instagram</a>
+                <a href="https://facebook.com/pinedart" target="_blank" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 500 }}>Facebook</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

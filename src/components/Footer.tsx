@@ -3,6 +3,7 @@ import './Footer.css';
 export default function Footer() {
   const WHATSAPP_NUMBER = "573234971067";
   const INSTAGRAM_USER = "pinedart_oficial";
+  const FACEBOOK_USER = "pinedart";
   const EMAIL = "contacto@pinedart.com";
 
   return (
@@ -13,9 +14,9 @@ export default function Footer() {
           <p className="footer-tagline">Conectando artistas originales con amantes del arte. Cada obra, una historia única que merece un hogar especial.</p>
           <div className="footer-social">
             <a href={`https://instagram.com/${INSTAGRAM_USER}`} target="_blank" className="social-link" title="Instagram">ig</a>
+            <a href={`https://facebook.com/${FACEBOOK_USER}`} target="_blank" className="social-link" title="Facebook">fb</a>
             <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" className="social-link" title="WhatsApp">wa</a>
             <a href={`mailto:${EMAIL}`} className="social-link" title="Correo">em</a>
-            <a href="#" className="social-link" title="Pinterest">pt</a>
           </div>
         </div>
         <div className="footer-col">
