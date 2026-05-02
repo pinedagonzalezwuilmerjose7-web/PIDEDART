@@ -1,15 +1,15 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --cream: #F5F0E8;
-  --cream-dark: #EDE7D9;
-  --ink: #1A1610;
-  --ink-mid: #3D3527;
-  --gold: #B8935A;
-  --gold-light: #D4B07A;
-  --rust: #8B4513;
-  --muted: #7A7060;
-  --white: #FEFCF8;
+  --cream: #F7F7F7;
+  --cream-dark: #EBEBEB;
+  --ink: #2B2B2B;
+  --ink-mid: #1D3557;
+  --gold: #FF6B35;
+  --gold-light: #FF8A5B;
+  --rust: #1D3557;
+  --muted: #B0B0B0;
+  --white: #FFFFFF;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Montserrat', sans-serif;
 }
