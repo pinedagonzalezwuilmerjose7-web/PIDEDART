@@ -17,7 +17,7 @@ export default function FeaturedGallery() {
   const [loading, setLoading] = useState(true);
 
   // CONFIGURA TU NÚMERO DE WHATSAPP AQUÍ (sin el +)
-  const WHATSAPP_NUMBER = "573000000000"; 
+  const WHATSAPP_NUMBER = "573234971067"; 
 
   useEffect(() => {
     async function fetchArtworks() {

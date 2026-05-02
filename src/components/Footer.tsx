@@ -1,7 +1,7 @@
 import './Footer.css';
 
 export default function Footer() {
-  const WHATSAPP_NUMBER = "573000000000";
+  const WHATSAPP_NUMBER = "573234971067";
   const INSTAGRAM_USER = "pinedart_oficial";
   const EMAIL = "contacto@pinedart.com";
 

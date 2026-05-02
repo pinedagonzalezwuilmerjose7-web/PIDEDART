@@ -1,7 +1,7 @@
 import './FloatingContact.css';
 
 export default function FloatingContact() {
-  const WHATSAPP_NUMBER = "573000000000"; // Cambia por tu número real
+  const WHATSAPP_NUMBER = "573234971067"; // Cambia por tu número real
   const message = "Hola PINEDART, me gustaría recibir más información sobre las obras disponibles.";
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
